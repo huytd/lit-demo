@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyber</title>
+
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+    <div id="gameAreaWrapper" style="display:none;">
+        <canvas tabindex="1" id="cvs"></canvas>
+    </div>
+    <div id="startMenuWrapper">
+        <div id="startMenu">
+            <p></p>
+            <input type="text" tabindex="0" autofocus placeholder="Enter your name here" id="playerNameInput" />
+            <b class="input-error">Nick name must be alphanumeric characters only!</b>
+            <br />
+            <button id="startButton">Play</button>
+        </div>
+    </div>
+    <script src="lib/engine.io.js"></script>
+    <script src="lib/buffer.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
